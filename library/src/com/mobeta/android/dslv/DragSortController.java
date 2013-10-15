@@ -464,5 +464,10 @@ public class DragSortController extends SimpleFloatViewManager implements View.O
                     return false;
                 }
             };
+            
+    public boolean isDragging()
+    {
+    	return mDragging;
+    }
 
 }
